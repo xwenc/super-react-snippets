@@ -1,0 +1,26 @@
+{
+  "reactPageTsx": {
+    "prefix": "rptsx",
+    "body": [
+      "import React, { FC } from 'react';",
+      "",
+      "//Core Method",
+      "",
+      "//Type",
+      "",
+      "//Hooks",
+      "",
+      "//Common Components",
+      "",
+      "//Local Components",
+      "",
+      "export interface ${1:componentName}Props {}",
+      "",
+      "const ${1:componentName}: FC<${1:componentName}Props> = props => {",
+      "return <div>${1:componentName}</div>",
+      "}",
+      "export default ${1:componentName};"
+    ],
+    "description": "React page template"
+  } 
+}
