@@ -22,5 +22,26 @@
       "export default ${1:componentName};"
     ],
     "description": "React page template"
+  },
+  "reactHookTs": {
+    "prefix": "rhts",
+    "body": [
+      "import { useState, useEffect, useCallback } from 'react';",
+      "",
+      "//Core Method",
+      "",
+      "//Type",
+      "",
+      "//Hooks",
+      "",
+      "//Common Components",
+      "",
+      "//Local Components",
+      "",
+      "export const use${1:hooksname} = (${2:hookPram}) => {",
+      "return {}",
+      "}"
+    ],
+    "description": "React hooks template"
   } 
 }
